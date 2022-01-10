@@ -1,6 +1,5 @@
 const { gql } = require('apollo-server-express');
 
-// typeDefs
 const typeDefs = gql`
     type Book {
         _id: ID
@@ -43,5 +42,4 @@ const typeDefs = gql`
 }
 `;
 
-// export the typeDefs
 module.exports = typeDefs; 
